@@ -1,0 +1,18 @@
+div{
+    margin: 3%;
+}
+div.green{
+   border: solid green;
+    border-radius: 10px;
+    text-align: center;
+}
+div.red{
+    border: dashed red;
+    border-width: 2px;
+    border-radius: 20px;
+}
+div.blue{
+    border: dotted  blue;
+    border-radius: 30px;
+    border-width: 5px;
+}

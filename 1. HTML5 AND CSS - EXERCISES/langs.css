@@ -1,0 +1,9 @@
+span{
+    border: 1px #AAA;
+    border-radius: 10px;
+    background: #CCC;
+    padding: 7px;
+}
+body{
+    background: #EEE;
+}
