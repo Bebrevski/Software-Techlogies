@@ -83,14 +83,14 @@ module.exports = {
             res.redirect('/user/login');
             return;
         }
-        let id = req.user.id;
 
-        User.findById(id).then( user => {
-            Article.find({author: user.id}).exec((error,article) => {
-                res.render('user/details', article);
-            })
+        let id = req.user.articles;
+
+        console.log(id);
+
+        Article.findById(id).populate('author').then(article => {
+            res.render('article/details',article);
         });
-
     }
 };
 
