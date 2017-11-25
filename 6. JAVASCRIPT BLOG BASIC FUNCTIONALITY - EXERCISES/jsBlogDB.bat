@@ -1,1 +1,1 @@
-mongod --dbpath "D:\SoftUni\DateBase\jsBlogDB"
+mongod --dbpath "E:\SoftUni\DateBase\jsBlogDB"

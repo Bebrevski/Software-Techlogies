@@ -68,5 +68,4 @@ class CalculatorController extends Controller
 
     }
 
-
 }

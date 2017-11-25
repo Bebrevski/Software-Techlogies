@@ -21,20 +21,20 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_51280f70be66a82ac50e0f9bb87686f059449501888324105a3301e4ab4aff86 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_51280f70be66a82ac50e0f9bb87686f059449501888324105a3301e4ab4aff86->enter($__internal_51280f70be66a82ac50e0f9bb87686f059449501888324105a3301e4ab4aff86_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "calculator/index.html.twig"));
+        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1->enter($__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "calculator/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_51280f70be66a82ac50e0f9bb87686f059449501888324105a3301e4ab4aff86->leave($__internal_51280f70be66a82ac50e0f9bb87686f059449501888324105a3301e4ab4aff86_prof);
+        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1->leave($__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_8dac9a6cd2e270b305d41d34f6bd9d7eacde1ed781545ba2b8e78f4fda3baf0a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8dac9a6cd2e270b305d41d34f6bd9d7eacde1ed781545ba2b8e78f4fda3baf0a->enter($__internal_8dac9a6cd2e270b305d41d34f6bd9d7eacde1ed781545ba2b8e78f4fda3baf0a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714->enter($__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <div class=\"container body-content span=8 offset=2\">
@@ -45,10 +45,16 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
         echo "\" method=\"POST\">
                 <fieldset>
                     <div class=\"form-group\">
+                        <div class=\"col-sm-4 col-sm-offset-4\">
+                             <button class=\"btn btn-primary\"><a href=\"\">Hex</a></button>
+                        </div>
+                    </div>
+
+                    <div class=\"form-group\">
                         <div class=\"col-sm-1 \">
                             <input type=\"text\" class=\"form-control\" id=\"leftOperand\" placeholder=\"Left Operand\"
                                    name=\"calculator[leftOperand]\" value=\"";
-        // line 11
+        // line 17
         echo twig_escape_filter($this->env, ((($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "leftOperand", array(), "any", true, true) &&  !(null === $this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "leftOperand", array())))) ? ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "leftOperand", array())) : ("")), "html", null, true);
         echo "\">
                         </div>
@@ -58,29 +64,29 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                         <div class=\"col-sm-4 \">
                             <select class=\"form-control\" name=\"calculator[operator]\">
                                 <option value=\"+\" ";
-        // line 18
+        // line 24
         echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "+"))) ? ("selected") : (""));
         echo ">+</option>
                                 <option value=\"-\" ";
-        // line 19
+        // line 25
         echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "-"))) ? ("selected") : (""));
         echo ">-</option>
                                 <option value=\"*\" ";
-        // line 20
+        // line 26
         echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "*"))) ? ("selected") : (""));
         echo ">*</option>
                                 <option value=\"/\" ";
-        // line 21
+        // line 27
         echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "/"))) ? ("selected") : (""));
         echo ">/</option>
                                 <option value=\"^\" ";
-        // line 22
-        echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "/"))) ? ("selected") : (""));
-        echo ">/</option>
+        // line 28
+        echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "^"))) ? ("selected") : (""));
+        echo ">^</option>
                                 <option value=\"%\" ";
-        // line 23
-        echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "/"))) ? ("selected") : (""));
-        echo ">/</option>
+        // line 29
+        echo (((array_key_exists("calculator", $context) && ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : $this->getContext($context, "calculator")), "operator", array()) == "%"))) ? ("selected") : (""));
+        echo ">%</option>
                             </select>
                         </div>
                     </div>
@@ -89,7 +95,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                         <div class=\"col-sm-4 \">
                             <input type=\"text\" class=\"form-control\" id=\"rightOperand\" placeholder=\"Right Operand\"
                                    name=\"calculator[rightOperand]\" value=\"";
-        // line 31
+        // line 37
         echo twig_escape_filter($this->env, ((($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "rightOperand", array(), "any", true, true) &&  !(null === $this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "rightOperand", array())))) ? ($this->getAttribute((isset($context["calculator"]) ? $context["calculator"] : null), "rightOperand", array())) : ("")), "html", null, true);
         echo "\">
                         </div>
@@ -102,21 +108,21 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                     </div>
 
                     ";
-        // line 41
+        // line 47
         if (array_key_exists("form", $context)) {
-            // line 42
+            // line 48
             echo "                        ";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "_token", array()), 'row');
             echo "
                     ";
         }
-        // line 44
+        // line 50
         echo "
                     <div class=\"form-group\">
                         <div class=\"col-sm-4 \">
                             <input type=\"text\" class=\"form-control\" id=\"result\" placeholder=\"Result\" disabled=\"disabled\"
                                    name=\"result\" value=\"";
-        // line 48
+        // line 54
         echo twig_escape_filter($this->env, (((array_key_exists("result", $context) &&  !(null === (isset($context["result"]) ? $context["result"] : $this->getContext($context, "result"))))) ? ((isset($context["result"]) ? $context["result"] : $this->getContext($context, "result"))) : ("")), "html", null, true);
         echo "\">
                         </div>
@@ -133,7 +139,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
     </div>
 ";
         
-        $__internal_8dac9a6cd2e270b305d41d34f6bd9d7eacde1ed781545ba2b8e78f4fda3baf0a->leave($__internal_8dac9a6cd2e270b305d41d34f6bd9d7eacde1ed781545ba2b8e78f4fda3baf0a_prof);
+        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714->leave($__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714_prof);
 
     }
 
@@ -149,7 +155,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
 
     public function getDebugInfo()
     {
-        return array (  120 => 48,  114 => 44,  108 => 42,  106 => 41,  93 => 31,  82 => 23,  78 => 22,  74 => 21,  70 => 20,  66 => 19,  62 => 18,  52 => 11,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  126 => 54,  120 => 50,  114 => 48,  112 => 47,  99 => 37,  88 => 29,  84 => 28,  80 => 27,  76 => 26,  72 => 25,  68 => 24,  58 => 17,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -161,6 +167,12 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
         <div class=\"well\">
             <form class=\"form-inline\" action=\"{{ path('index') }}\" method=\"POST\">
                 <fieldset>
+                    <div class=\"form-group\">
+                        <div class=\"col-sm-4 col-sm-offset-4\">
+                             <button class=\"btn btn-primary\"><a href=\"\">Hex</a></button>
+                        </div>
+                    </div>
+
                     <div class=\"form-group\">
                         <div class=\"col-sm-1 \">
                             <input type=\"text\" class=\"form-control\" id=\"leftOperand\" placeholder=\"Left Operand\"
@@ -175,8 +187,8 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                                 <option value=\"-\" {{ calculator is defined and calculator.operator == '-' ? 'selected' : '' }}>-</option>
                                 <option value=\"*\" {{ calculator is defined and calculator.operator == '*' ? 'selected' : '' }}>*</option>
                                 <option value=\"/\" {{ calculator is defined and calculator.operator == '/' ? 'selected' : '' }}>/</option>
-                                <option value=\"^\" {{ calculator is defined and calculator.operator == '/' ? 'selected' : '' }}>/</option>
-                                <option value=\"%\" {{ calculator is defined and calculator.operator == '/' ? 'selected' : '' }}>/</option>
+                                <option value=\"^\" {{ calculator is defined and calculator.operator == '^' ? 'selected' : '' }}>^</option>
+                                <option value=\"%\" {{ calculator is defined and calculator.operator == '%' ? 'selected' : '' }}>%</option>
                             </select>
                         </div>
                     </div>
