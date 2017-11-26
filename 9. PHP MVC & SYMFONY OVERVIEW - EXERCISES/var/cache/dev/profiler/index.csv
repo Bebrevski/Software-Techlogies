@@ -86,3 +86,4 @@ cf6138,127.0.0.1,POST,http://localhost:8000/,1511617209,,200
 55a851,127.0.0.1,POST,http://localhost:8000/,1511617262,,200
 7bd03f,127.0.0.1,GET,http://localhost:8000/indexHex.html.twig,1511617264,3d21db,200
 3d21db,127.0.0.1,GET,http://localhost:8000/indexHex.html.twig,1511617264,,404
+19672b,127.0.0.1,GET,http://localhost:8000/,1511700913,,200

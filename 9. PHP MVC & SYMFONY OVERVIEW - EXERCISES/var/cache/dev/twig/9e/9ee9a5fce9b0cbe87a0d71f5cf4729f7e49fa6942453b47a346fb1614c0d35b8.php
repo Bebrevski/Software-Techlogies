@@ -21,20 +21,20 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1->enter($__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "calculator/index.html.twig"));
+        $__internal_ed5907c7017533912c3b292f2b3d064d66399ce589a4a8517caa9f1bc320647b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ed5907c7017533912c3b292f2b3d064d66399ce589a4a8517caa9f1bc320647b->enter($__internal_ed5907c7017533912c3b292f2b3d064d66399ce589a4a8517caa9f1bc320647b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "calculator/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1->leave($__internal_c69c0633e2bacde694ad1abbf691fff420bd9813c1558ceb5ddaf0e775b3bec1_prof);
+        $__internal_ed5907c7017533912c3b292f2b3d064d66399ce589a4a8517caa9f1bc320647b->leave($__internal_ed5907c7017533912c3b292f2b3d064d66399ce589a4a8517caa9f1bc320647b_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714->enter($__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_1930ba50c386f4aade95e639cdab8e76313566cf64186be0afc3e30dcff58611 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1930ba50c386f4aade95e639cdab8e76313566cf64186be0afc3e30dcff58611->enter($__internal_1930ba50c386f4aade95e639cdab8e76313566cf64186be0afc3e30dcff58611_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <div class=\"container body-content span=8 offset=2\">
@@ -46,7 +46,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                 <fieldset>
                     <div class=\"form-group\">
                         <div class=\"col-sm-4 col-sm-offset-4\">
-                             <button class=\"btn btn-primary\"><a href=\"\">Hex</a></button>
+                             <button class=\"btn btn-primary\"><a href=\"indexHex.html.twig\">Hex</a></button>
                         </div>
                     </div>
 
@@ -139,7 +139,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
     </div>
 ";
         
-        $__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714->leave($__internal_db2e234909a4944db46f57a7861bb85c10f4cb05a4101b334de9d5db80340714_prof);
+        $__internal_1930ba50c386f4aade95e639cdab8e76313566cf64186be0afc3e30dcff58611->leave($__internal_1930ba50c386f4aade95e639cdab8e76313566cf64186be0afc3e30dcff58611_prof);
 
     }
 
@@ -169,7 +169,7 @@ class __TwigTemplate_9a9ca93b31bfdd0218b9d544cd92f5439a7dbc0649bd56eeb10c77e8b77
                 <fieldset>
                     <div class=\"form-group\">
                         <div class=\"col-sm-4 col-sm-offset-4\">
-                             <button class=\"btn btn-primary\"><a href=\"\">Hex</a></button>
+                             <button class=\"btn btn-primary\"><a href=\"indexHex.html.twig\">Hex</a></button>
                         </div>
                     </div>
 
