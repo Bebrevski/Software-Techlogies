@@ -1,8 +1,22 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Scanner scanner = new Scanner(System.in);
+
+        String input = scanner.nextLine();
+
+        if (input.length() >= 20) {
+            System.out.println(input.substring(0,20));
+        }else{
+            System.out.print(input);
+            for (int i = input.length(); i < 20; i++) {
+                System.out.printf("*");
+            }
+            System.lineSeparator();
+        }
     }
 }
