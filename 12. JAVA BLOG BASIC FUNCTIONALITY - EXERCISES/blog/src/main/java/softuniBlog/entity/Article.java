@@ -17,7 +17,8 @@ public class Article {
         this.author = author;
     }
 
-    public  Article() {    }
+    public Article() {
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -47,11 +48,18 @@ public class Article {
         this.content = content;
     }
 
+    @ManyToOne()
+    @JoinColumn(nullable = false, name = "authorId")
     public User getAuthor() {
         return author;
     }
 
     public void setAuthor(User author) {
         this.author = author;
+    }
+
+    @Transient
+    public String getSummary() {
+        return this.getContent().substring(0, this.getContent().length() / 2) + "...";
     }
 }
