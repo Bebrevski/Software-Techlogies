@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: TrainSystem, Configuration: Debug Any CPU ------
+1>  TrainSystem -> E:\SoftUni\Software Technology Nov. 2017\16. Exam Preps\Train\C#-Skeleton\TrainSystem\bin\TrainSystem.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
